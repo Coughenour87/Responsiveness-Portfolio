@@ -2,6 +2,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
 
 h1 {
     background-color: #59AAA5;
@@ -21,10 +27,8 @@ h2 {
 
 
 
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     body {
-      background-color: lightblue;
+      /* background-color: lightgray; */
     }
   }
