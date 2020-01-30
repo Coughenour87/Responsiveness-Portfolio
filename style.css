@@ -1,5 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
 }
 
 .center {
@@ -15,20 +16,38 @@ h1 {
     text-align: center;
 }
 
-.container{
+.container-link {
     color: grey;
     text-align: center;
+    background-color: white;
 }
 
 h2 {
     background-color: white;
     color: #59AAA5;
+    text-align: left;
 }
 
+a {
+    color:gray;
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+        }
 
 
-@media only screen and (max-width: 640px) {
-    body {
-      background-color: lightgray;
-    }
+  @media screen and (min-width: 640px) {
+      h1 {
+          text-align: left;
+      }
+      .col {
+          text-align: right;
+      }
   }
+
+  @media screen and (max-width: 980) {
+
+  }
+
